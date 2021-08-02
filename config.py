@@ -28,7 +28,7 @@ class TEXT:
 
 🧑‍💻 **Maintainer:** {bot_owner}
 
-👥 **Support Group:** [SafoTheBot](https://t.me/safothebot)
+👥 **Support Group:** [IMΛGΣЯ](https://t.me/ImagerSupportGroup)
 """
 
   HELP_USER = """
