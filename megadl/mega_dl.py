@@ -106,7 +106,7 @@ async def megadl(bot, message):
         if not guessedfilemime.mime:
             await download_msg.edit("**Trying To Upload ...** \n**Can't Get File Type, Sending as Document!")
             safone = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
@@ -120,7 +120,7 @@ async def megadl(bot, message):
         if "image/gif" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             safone = await message.reply_animation(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
@@ -133,7 +133,7 @@ async def megadl(bot, message):
         if "image" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             safone = await message.reply_photo(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
@@ -148,7 +148,7 @@ async def megadl(bot, message):
             thumbnail_path = f"{alreadylol}/thumbnail.jpg"
             subprocess.call(['ffmpeg', '-i', magapylol, '-ss', '00:00:10.000', '-vframes', '1', thumbnail_path])
             safone = await message.reply_video(magapylol, duration=vidduration, thumb=thumbnail_path, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
@@ -159,7 +159,7 @@ async def megadl(bot, message):
         elif "audio" in filemimespotted:
             await download_msg.edit("**Trying To Upload ...**")
             safone = await message.reply_audio(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
@@ -170,7 +170,7 @@ async def megadl(bot, message):
         else:
             await download_msg.edit("**Trying To Upload ...**")
             safone = await message.reply_document(magapylol, progress=progress_for_pyrogram, progress_args=("**Uploading ...** \n", download_msg, start_time), reply_to_message_id=message.message_id)
-            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@AsmSafone's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/AsmSafone/173**")]]), reply_to_message_id=safone.message_id)
+            await safone.reply_text(f"**{user}\nThanks For Using Me 😘!**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🙌 SHARE 🙌", url=f"https://t.me/share/url?url=**Hey%20Guys!%20%20Check%20Out%20@ImagerSupportGroup's%20Bots%20Channel.%20%20Share%20His%20Bots%20And%20Support%20Him%20%F0%9F%98%89!%20%20Here%20Is%20The%20Bots%20List%20:-%20https://t.me/ImagerSupportGroup/35**")]]), reply_to_message_id=safone.message_id)
             await download_msg.delete()
             ist = (datetime.datetime.utcnow() + datetime.timedelta(minutes=30, hours=5)).strftime("%d/%m/%Y, %H:%M:%S")
             bst = (datetime.datetime.utcnow() + datetime.timedelta(minutes=00, hours=6)).strftime("%d/%m/%Y, %H:%M:%S")
